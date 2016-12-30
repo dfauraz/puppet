@@ -1,2 +1,2 @@
 # puppet
-Puppet cookbook repo
+Puppet cookbook repository
