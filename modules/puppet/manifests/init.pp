@@ -15,11 +15,11 @@ class puppet {
            mode   => '0600',
       }
 
-      cron { 'run-puppet':
-           ensure  => 'present',
-           user    => 'ubuntu',
-           command => '/usr/local/bin/pull-updates',
-           minute  => '*/10',
-           hour    => '*',
-      }
+#      cron { 'run-puppet':
+#           ensure  => 'present',
+#           user    => 'ubuntu',
+#           command => '/usr/local/bin/pull-updates',
+#           minute  => '*/10',
+#           hour    => '*',
+#      }
 }
